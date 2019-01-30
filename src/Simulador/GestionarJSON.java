@@ -38,7 +38,7 @@ public class GestionarJSON {
         StringBuffer response = null;
 
 
-        URL obj = new URL("http://localhost/Simulador/webService.php");
+        URL obj = new URL("http://localhost/proyectos/php/Simulador/webService.php");
         URLConnection con = (URLConnection) obj.openConnection();
 
         HttpURLConnection cone = (HttpURLConnection) obj.openConnection();
